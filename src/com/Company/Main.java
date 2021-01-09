@@ -28,7 +28,7 @@ public class Main {
         while (isRunning) {
             inputMoney = input.nextLine();
 
-            switch (inputMoney) {                                           // Switch that only allows specific numbers. Since a stringbased input we don´t need any try catch
+            switch (inputMoney) {   // Switch that only allows specific numbers. Since a stringbased input we don´t need any try catch
                 case "1", "2", "5", "10", "20", "50", "100", "200", "500": {
                     moneySpent = Integer.parseInt(inputMoney);
 
